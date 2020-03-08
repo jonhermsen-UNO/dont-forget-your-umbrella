@@ -1,7 +1,4 @@
 if(keyboard_check_pressed(vk_enter)) {
-	var isLose = obj_game.city_health <= 0;
-	var isWin = !isLose && obj_game.DAY == 7;
-	
 	if (isLose || isWin) {
 		// reset the game
 		obj_game.DAY = 1;
@@ -12,6 +9,6 @@ if(keyboard_check_pressed(vk_enter)) {
 		obj_game.current_weather = -1;
 		obj_game.current_severity = 0;
 		obj_game.city_health = 100;
-	}
+	} else {obj_game.DAY++};
 	room_goto(rm_horde);	
 }

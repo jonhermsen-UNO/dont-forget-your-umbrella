@@ -4,6 +4,21 @@ if (wizard_is_player) {
 	if (ds_list_size(wizard_hand) == 0) {
 		// all cars have been played, so calculate the weather and move rooms
 		set_weather_type();
+		//deal damage to city based on severity
+		obj_game.city_health -= obj_game.current_severity * irandom_range(7,12);
+		repeat(obj_game.current_severity + 1){
+			switch(choose(1,2,3,4)){
+				case 1: global.CARD_FIRE++;
+				break;
+				case 2: global.CARD_WATER++;
+				break;
+				case 3: global.CARD_ICE++;
+				break;
+				case 4: global.CARD_EARTH++;
+				break;
+				default:
+			}
+		}
 		room_goto(rm_summary);
 		return;
 	}

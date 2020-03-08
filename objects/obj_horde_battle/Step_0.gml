@@ -64,7 +64,7 @@ if(keyboard_check_pressed(ord("S"))){
 if(keyboard_check_pressed(vk_enter)){
 	enemy1.strength -= enemy1.counter_amt;
 	if(enemy1.strength == 0){
-		while(edit_enemy_counter(enemy1,-1)){};
+		edit_enemy_counter(enemy1,-1);
 	}
 	alarm[0] = room_speed/2;
 }

@@ -22,5 +22,7 @@ current_weather = -1;
 current_severity = 0;
 city_health = 100;
 
-//recede for choose()
+//re-seed for choose()
 randomize();
+
+audio_play_sound(sng_main, 2, true);
