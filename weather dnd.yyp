@@ -114,7 +114,7 @@
             "Key": "29b9ad99-88d1-427e-80d3-df8593f02c65",
             "Value": {
                 "id": "7eb6bd13-02d2-41cd-acc1-780097999585",
-                "resourcePath": "fonts\\fnt_str\\fnt_str.yy",
+                "resourcePath": "fonts\\fnt_game\\fnt_game.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -578,7 +578,8 @@
     "script_order": [
         "18381471-132d-4b44-bf50-bc06c219ff27",
         "5b5c9ef1-96f0-46a6-92bf-56615dec4df8",
-        "4d21e42a-dd96-430f-a828-4c02b18d59c4"
+        "4d21e42a-dd96-430f-a828-4c02b18d59c4",
+        "b04524e3-6d31-400e-b26f-357173e333f8"
     ],
     "tutorial": ""
 }
