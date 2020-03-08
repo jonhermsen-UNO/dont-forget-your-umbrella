@@ -16,5 +16,9 @@ Dragon
 ID 89373338 © Refluo | Dreamstime.com
 Wooden Signs
 ID 108213516
-© Vlad Neshte| Dreamstime.com
+© Vlad Neshte | Dreamstime.com
+Wizard
+ID 137302431
+ID 137302431
+© Aliaksandr Мalashka | Dreamstime.com
 
