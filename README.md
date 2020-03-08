@@ -7,6 +7,7 @@ Defend your kingdom against the Wizard of Weatherland. Arm yourself with the mag
 * Download and install [GameMaker Studio 2](https://www.yoyogames.com/gamemaker) (trial)
 * Clone this repository to your machine
 * Open the `weather dnd.yyp` file in GameMaker Studio 2
+* Press `f5` to begin playing!
 
 ## Credits
 
