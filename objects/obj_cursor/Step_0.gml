@@ -1,4 +1,4 @@
-if(keyboard_check_pressed(vk_left)){
+if(keyboard_check_pressed(ord("A"))){
 	switch (obj_game.current_severity){
 	//Screen has 2 monsters
 	case 1:
@@ -12,7 +12,7 @@ if(keyboard_check_pressed(vk_left)){
 	default: break;
 	}
 }
-if(keyboard_check_pressed(vk_right)){
+if(keyboard_check_pressed(ord("D"))){
 	switch (obj_game.current_severity){
 	//Screen has 2 monsters
 	case 1:
